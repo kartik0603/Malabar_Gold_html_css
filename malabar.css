@@ -1,0 +1,1542 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main_color: rgb(154, 0, 86);
+
+
+}
+
+:root {
+
+    --text_mini:
+        font-family: "Nunito Sans", sans-serif color: rgb(154, 0, 86);
+    ;
+
+
+}
+
+
+
+
+.malabar_navbar_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 80px;
+
+    /* margin-bottom: 1%; */
+    background-color: var(--main_color);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+
+}
+
+.malabar_navbar_contact {
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    /* border:  2px solid black; */
+    position: sticky;
+    top: 0;
+
+    z-index: 1000;
+    background-color: var(--main_color);
+}
+
+.malabar_navbar_contact_box {
+    position: relative;
+    left: 250px;
+    display: flex;
+    width: 50vw;
+    justify-content: space-evenly;
+
+    /* border:  2px solid black; */
+}
+
+.navbar_contact {
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-around;
+    /* border-radius:  2px solid black; */
+}
+
+.contact_text_navbar {
+    font-size: large;
+    /* font-weight: bold; */
+    color: white;
+}
+
+.malabar_navbar_contact_icons_img {
+    width: 20px;
+}
+
+#search-wrapper_malabar_navbar {
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.276);
+    align-items: stretch;
+    border-radius: 50px;
+    background-color: #fff;
+    overflow: hidden;
+    max-width: 700px;
+    box-shadow: 2px 1px 5px 1px rgba(0, 0, 0, 0.273);
+
+}
+
+#search {
+    border: none;
+    width: 350px;
+    font-size: 15px;
+}
+
+#search:focus {
+    outline: none;
+}
+
+.search-icon {
+    margin: 10px;
+    color: rgba(0, 0, 0, 0.564);
+}
+
+#search-button {
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: var(--main_color);
+    padding: 0px 10px;
+}
+.malabar_navbar_logo_and_search_btn_container
+{
+    display: flex;
+    width: 50vw;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border:  2px solid black; */
+
+}
+
+.malabar_nav_logo
+{
+    width: 150px;
+}
+
+.malabar_icons_container_navbar {
+    display: flex;
+    width: 50vw;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border:  2px solid black; */
+
+}
+
+.malabar_icon_items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.malabar_icon_img_navbar {
+    width: 35px;
+    height: 30px;
+}
+
+.malabar_icon_text_navbar {
+    font-size: 20px;
+    font-weight: light;
+    color: white;
+}
+
+.malabar_menu_box {
+    display: flex;
+    width: 100vw;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border:  1px solid black;
+    padding: 1%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.malabar_text_mini 
+
+{
+    
+
+    font-family: var(--text_mini);
+    color: var(--text_mini);
+
+}
+
+
+
+
+.malabar_baneer {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 3%; */
+}
+
+
+.mySlides {
+    width: 99vw;
+}
+
+.malabar_heding_text_box {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.malabar_heading_text {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    /* font-weight: bold; */
+    font-style: normal;
+    font-size: 45px;
+}
+
+.malabar_caliesta_banner_box {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.malabar_caliesta_banner {
+    width: 95vw;
+    border-radius: 20px;
+
+}
+
+.malabar_diamond_text_container {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+.malabar_diamond_text_img
+{
+    width: 50vw;
+}
+
+
+.caliesta_products_container {
+
+    display: grid;
+
+
+    width: 100vw;
+    height: fit-content;
+
+
+
+    grid-template-columns: 360px 360px 360px 360px;
+    grid-template-rows: 430px 430px 430px 100px;
+    row-gap: 2%;
+
+
+
+
+    margin-top: 3%;
+    justify-content: center;
+    align-items: center;
+}
+
+.caliesta_product {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid black; */
+    width: 350px;
+    height: 420px;
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.caliesta_product:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.caliesta_img {
+    width: 340px;
+}
+
+
+
+.malabar_button {
+    margin-top: 1%;
+    width: 70px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-size: 20px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: bold;
+    color: black;
+    transition: all 1s;
+
+}
+
+
+.malabar_button:hover {
+    /* background-color: rgb(242, 233, 233); */
+    color: var(--main_color);
+    transform: scale(1.3);
+
+
+
+
+
+}
+
+
+.malabar_diamond_speak_container {
+    display: grid;
+
+
+    width: 100vw;
+    /* height: 40vh; */
+
+
+    /* background-color: rgb(182, 246, 255); */
+
+    grid-template-columns: 690px 690px;
+    grid-template-rows: 370px 370px;
+    /* row-gap: 2%; */
+    height: fit-content;
+    /* column-gap: 2%; */
+
+
+
+    margin-top: 3%;
+    justify-content: center;
+    align-items: center;
+}
+
+.malabar_diamond_speak_items {
+    width: 690px;
+    height: 360px;
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+
+    align-items: center;
+
+
+    /* border: 1px solid black; */
+
+
+
+
+
+}
+
+.malabar_diamond_speak_video {
+    width: 660px;
+    height: 350px;
+
+
+    /* height: 360px; */
+
+
+}
+
+.malabar_diamond_speak_img {
+    width: 660px;
+    height: 350px;
+
+}
+
+.malabar_diamonds_2nd_heart_to_do_container {
+    
+    display: flex;
+    flex-direction: row;
+   
+
+
+    width: 100vw;
+    height: 100%;
+
+
+    /* background-color: rgb(182, 246, 255); */
+
+
+    
+
+
+
+
+    margin-top: 3%;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 5px solid rgb(139, 3, 3); */
+
+}
+
+.malabar_heart_to_do_main_left_container
+{
+    width: 44vw;
+    height: 100%;
+    /* border: 3px solid rgb(19, 1, 1); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.malabar_diamonds_2nd_heart_to_do_main_left_img
+{
+    width: 43vw;
+}
+
+.malabar_heart_to_do_main_right_container
+{
+    width: 55vw;
+    height: 100%;
+    /* border: 3px solid rgb(87, 158, 7); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+.malabar_heart_to_do_main_right_top_container
+{
+    width: 54vw;
+    height: 40%;
+    /* border: 3px solid rgb(158, 7, 90); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.malabar_heart_to_do_main_right_top_img
+{
+    width: 53vw;
+    height: 250px;
+}
+
+.malabar_heart_to_do_main_right_bottom_container
+{
+    width: 54vw;
+    height: 60%;
+    /* border: 3px solid rgb(90, 7, 158); */
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-content: center; */
+    align-items: center;
+
+
+
+
+}
+
+.malabar_heart_to_do_main_right_bottom_img1
+{
+    width: 395px;
+    height: 340px;
+
+}
+.malabar_heart_to_do_main_right_bottom_img2
+{
+    width: 395px;
+    height: 340px;
+
+   
+
+}
+
+
+.diamond_ring_banner_container {
+    margin-top: 3%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+
+}
+
+.diamond_ring_banner {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+
+    /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
+
+
+
+
+}
+
+.diamond_ring_banner_img {
+    width: 99vw;
+}
+
+.malabar_big_text {
+    /* position: relative;
+    left: 750px;
+    top: 100px; */
+
+    font-family: "Playfair Display", serif;
+
+    font-weight: bold;
+    font-style: normal;
+    font-size: 45px;
+    color: var(--main_color);
+}
+
+
+
+.malabar_diamond_ring_container {
+    display: grid;
+
+
+    width: 100vw;
+    height: fit-content;
+
+
+
+    grid-template-columns: 360px 360px 360px 360px;
+    grid-template-rows: 430px 430px 100px;
+    row-gap: 2%;
+
+
+
+
+    margin-top: 3%;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 2px solid rgb(139, 3, 3); */
+}
+
+.malabar_diamond_ring_products {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid black; */
+    width: 350px;
+    height: 420px;
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+
+.malabar_diamond_ring_products:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.malabar_diamond_ring_img {
+    width: 340px;
+
+}
+
+
+.diamond_earing_banner_container {
+    margin-top: 3%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+}
+
+.diamond_earing_banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+
+    /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
+}
+
+.diamond_earing_img {
+    width: 99vw;
+
+}
+
+.malabar_diamond_earing_container {
+    display: grid;
+
+
+    width: 100vw;
+    height: fit-content;
+
+
+
+    grid-template-columns: 360px 360px 360px 360px;
+    grid-template-rows: 430px 430px 100px;
+    row-gap: 2%;
+
+
+
+
+    margin-top: 3%;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 2px solid rgb(139, 3, 3); */
+}
+
+.malabar_diamond_earing_products {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid black; */
+    width: 350px;
+    height: 420px;
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.malabar_diamond_earing_products:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.malabar_diamond_earring_img {
+    width: 340px;
+}
+
+.diamond_neckless_banner_container {
+    margin-top: 3%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+}
+
+
+.diamond_neckless_banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+
+    /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
+}
+
+.diamond_neckless_banner_img {
+    width: 99vw;
+
+}
+
+
+.malabar_diamond_neckless_container {
+    display: grid;
+
+
+    width: 100vw;
+    height: fit-content;
+
+
+
+    grid-template-columns: 360px 360px 360px 360px;
+    grid-template-rows: 430px 430px 100px;
+    row-gap: 2%;
+
+
+
+
+    margin-top: 3%;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 2px solid rgb(139, 3, 3); */
+}
+
+.malabar_diamond_neckless_product {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid black; */
+    width: 350px;
+    height: 420px;
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+
+.malabar_diamond_neckless_product:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.malabar_diamond_neckless_img {
+    width: 340px;
+}
+
+
+.malabar_platinum_jewellery_info_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row; */
+    width: 100vw;
+    height: 100%;
+    margin-top: 3%;
+
+    /* border: 5px solid rgb(172, 11, 11); */
+}
+
+.malabar_platinum_jewellery_info_product_1 {
+    width: 24vw;
+    height: 100%;
+    /* border: 3px solid rgb(27, 1, 1); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+
+
+
+
+}
+
+.malabar_platinum_jewellery_info_product_1_img {
+    width: 23vw;
+    height: 500px;
+    /* height: 64vh; */
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+.malabar_platinum_jewellery_info_product_2 {
+    width: 49vw;
+    height: 100%;
+    /* border: 3px solid rgb(9, 131, 212); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.malabar_platinum_jewellery_info_product_2_img {
+    width: 49vw;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.malabar_platinum_jewellery_info_product_3 {
+    width: 24vw;
+    height: 100%;
+    /* border: 3px solid rgb(73, 212, 9); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.malabar_platinum_jewellery_info_product_3_img {
+    width: 23vw;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+
+.malabar_gold_jewellery_info_container
+{
+    display: grid;
+
+
+    width: 100vw;
+    height: fit-content;
+
+
+
+    grid-template-columns: 360px 360px 360px 360px;
+    grid-template-rows: 230px 230px 80px;
+    row-gap: 2%;
+
+
+
+
+    margin-top: 3%;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 2px solid rgb(139, 3, 3); */
+}
+
+.malabar_gold_jewellery_info_product
+{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    /* background-color: rgb(255, 255, 255); */
+    /* border: 1px solid black; */
+    width: 350px;
+    height: 220px;
+
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+}
+
+.malabar_gold_jewellery_info_product_img
+{
+    width: 350px;
+    height: 220px;
+
+
+}
+
+.malabar_bride_of_india_banner_container
+{
+display: flex;
+justify-content: center;
+align-items: center;
+    width: 100vw;
+}
+
+.malabar_bride_of_india_banner
+{
+    /* background-image: url(Brides-of-India-banner.jpg); */
+
+}
+
+.malabar_bride_of_india_banner_img
+{
+    width: 99vw;
+}
+
+
+.looking_bride_jewellery_text_box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+}
+
+.looking_bride_jewellery_text
+{
+    margin-top: 2%;
+    font-family: 'Great Vibes', cursive;
+    color: #7D0849;
+    font-size: 50px;
+  font-weight: bold;
+}
+.heading_design
+{
+    width: 300px;
+}
+
+.malabar_bride
+{
+    background: #e3d7cf;
+    margin-top: 3%;
+}
+.malabar_bride_text_small
+{
+margin-top: 5%;
+font-size: 20px;
+color: rgb(134, 134, 139);
+font-weight: bold;
+}
+
+.malabar_bride_mini_text
+{
+    margin-top: 3%;
+    font-size: 20px;
+    color: rgb(134, 134, 153);
+
+}
+
+#form-list_container
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.malabar_form
+{
+    display: flex;
+    flex-direction: column;
+ margin: 2%;
+ justify-content: center;
+ align-items: center;
+}
+
+.form-control
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2%;
+    width: 250px;
+    height: 30px;
+}
+.btn_submitbutton_form_bride
+{
+    background-color: rgb(133, 23, 83);
+    color:white;
+    width: 260px;
+    height: 35px;
+    border-radius:10px ;
+}
+
+.btn_submitbutton_form_bride:hover
+{
+    color: black;
+}
+
+.malabar_flower_line_container
+{
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    /* height: 100%; */
+    height: fit-content;
+   
+    
+}
+
+.malabar_flower_line_img
+{
+    width: 100vw;
+    /* height: 100px; */
+}
+.malabar_brides_of_india_main_container
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+    background: #F4F4F7 url(https://static.malabargoldanddiamonds.com/media/wysiwyg/offer_page/2023/BOI/bg_pattern_new.png);
+    border-top: solid 1px #f4f4f4;
+    /* padding: 25px 0 55px 0; */
+    /* border-bottom: solid 1px #f4f4f4; */
+}
+.meet_the_brides_text_box
+{
+    
+    width: 100vw;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+.malabar_bride_text_small
+{
+    text-align: center;
+}
+
+
+.malabar_brides_of_india_container
+{
+display: grid;
+/* border:  2px solid#7D0849; */
+width: 100vw;
+/* height: 100%; */
+height: fit-content;
+
+
+
+grid-template-columns: 420px 420px 420px ;
+grid-template-rows: 680px 680px 680px 680px  230px;
+row-gap: 2%;
+
+
+
+
+margin-top: 3%;
+justify-content: center;
+align-items: center;
+/* border: 2px solid black; */
+}
+
+.malabar_brides_model
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 410px;
+    height: 650px;
+    transition: all 1s;
+   
+
+/* border:  2px solid #7D0849; */
+
+}
+.malabar_brides_model:hover
+{
+    transform: scale(1.1);
+}
+
+.malabar_brides_model_img
+{
+    width: 410px;
+    height: 550px;
+}
+
+.malabar_bride_model_last_two_box
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+/* border:  2px solid #7D0849; */
+width: 100vw;
+
+
+
+
+}
+.malabar_bride_name_text_box
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+/* border:  2px solid #7D0849; */
+width: 28vw;
+
+}
+
+.malabar_bride_name_text
+{
+   
+    font-family: 'Great Vibes', cursive;
+
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    color: #7D0849;
+    font-size: 55px;
+    text-align: center;
+
+
+
+
+}
+
+.malabar_bride_name_bride_text
+{
+    font-family: 'Great Vibes', cursive;
+    color: #7D0849;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-optical-sizing: auto;
+
+
+}
+
+.malabar_it_s_time_to_show_container
+{
+    background: #f5f1e6 url("https://www.malabargoldanddiamonds.com//media/wysiwyg/offer_page/2023/BOI/video_bg_pattern.png");
+  /* border-top: solid 1px #efe5c8; */
+  padding: 25px 0 55px 0;
+  /* border-bottom: solid 1px #efe5c8; */
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: fit-content;
+}
+
+.malabar_it_s_time_to_show_video
+{
+    margin-top: 2%;
+    width: 90vw;
+}
+
+.malabar_promise_container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-top: 3%;
+}
+
+.malabar_promise_img
+{
+    width: 90vw;
+    border-radius:15px ;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.malabar_shop_by_gender_container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: fit-content;
+    /* border:  2px solid #7D0849; */
+    margin-top: 3%;
+
+}
+
+.malabar_shop_by_women_container
+{
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: fit-content;
+    /* border:  2px solid #7D0849; */
+    margin-bottom: 2%;
+}
+
+
+
+.malabar_shop_by_men_container
+{
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: fit-content;
+    /* border:  2px solid #7D0849; */
+    margin-bottom: 2%;
+
+}
+
+.malabar_shop_by_kid_container
+{
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: fit-content;
+    /* border:  2px solid #7D0849; */
+}
+
+.malabar_shop_by_gender_product
+{
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: fit-content;
+    /* border:  2px solid #7D0849; */
+}
+
+.malabar_shop_by_genders_imgs
+{
+    width: 24vw;
+}
+.malabar_promise_container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+}
+.malabar_promise_img
+{
+    width: 99vw;
+    /* height: 300px; */
+}
+
+.malabar_gift_and_more_main_container
+{
+    display: flex;
+  
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+    margin-top: 3%;
+    /* border:  2px solid #7D0849; */
+}
+
+.malabar_gift_and_more_left_container
+{
+    
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49vw;
+    height: 100%;
+    /* border:  2px solid blanchedalmond; */
+}
+.malabar_gift_and_more_left_box
+{
+    display: grid;
+
+
+    width: 48vw;
+    height: 100%;
+    
+
+
+
+    grid-template-columns: 360px 360px;
+    grid-template-rows: 250px 250px 20px;
+    row-gap: 1%;
+
+
+
+
+    justify-content: center;
+    align-items: center;
+    /* border:  2px solid #7D0849; */
+}
+
+.malabar_gift_and_more_left_products
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23vw;
+    height: 250px;
+    /* border:  2px solid #7D0849; */
+
+
+}
+
+.malabar_gift_and_more_left_img
+{
+    width: 22.5vw;
+    height: 250px;
+    border-radius: 15px;
+
+}
+
+.malabar_gift_and_more_right_container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49vw;
+    height: 100%;
+    /* border:  2px solid #c0e006; */
+    margin-right: 2%;
+
+}
+
+.malabar_git_and_more_right_products
+
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23vw;
+    height: 520px;
+    /* height: 225px; */
+    /* border:  2px solid #7D0849; */
+}
+
+.malabar_gift_and_more_right_img
+{
+    width: 22.5vw;
+    height: 510px;
+    border-radius: 15px;
+}
+
+
+.malabar_store_main_container
+{
+    display: flex;
+  
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: fit-content;
+    margin-top: 3%;
+    /* border:  2px solid #7D0849; */
+}
+
+.malabar_store_left_box
+{
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    width: 49vw;
+    height: fit-content;
+    margin-top: 3%;
+    /* border:  2px solid #0e0008; */
+}
+.malabar_store_left_img
+{
+    width: 48vw;
+    height: 500px;
+
+}
+.malabar_store_right_box
+{
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+    align-items: center;
+    width: 49vw;
+    height: fit-content;
+    margin-top: 3%;
+    /* border:  2px solid #e21e8d; */
+    margin-right: 1%;
+
+
+   
+}
+
+.malabar_store_right_info1
+{
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+    align-items: center;
+    background: #f9f2ea;
+  width: 48vw;
+  text-align: center;
+  padding: 53px 25px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  height: 285px;
+
+}
+
+.malabar_store_right_bottom_box
+{
+    display: flex;
+   
+  
+    justify-content: space-evenly;
+    align-items: center;
+    width: 48vw;
+}
+
+.malabar_store_right_info2
+{
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+    align-items: center;
+    background: #f9f2ea;
+    width: 23.5vw;
+    height: 200px;
+    text-align: center;
+    padding: 53px 25px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.malabar_store_right_info3
+{
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+    align-items: center;
+    background: #f9f2ea;
+    width: 23.5vw;
+    text-align: center;
+    padding: 53px 25px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    height: 200px;
+
+}
+
+.store_text_info1
+{
+    /* font-family: "Playfair Display", serif; */
+
+    color: var(--main_color);
+    font-size: 50px;
+}
+
+.store_text_info2
+{
+    font-family: "Playfair Display", serif;
+
+    color: black;
+    /* font-weight: bold; */
+    font-size: 40px;
+}
+
+.store_text_info2_bottom
+{
+    font-family: "Playfair Display", serif;
+
+    color: var(--main_color);
+    font-size: 20px;
+}
+
+
+.malabar_footer_main_container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+     height: fit-content;
+    background: #f9f2ea;
+    /* border:  2px solid #e21e8d; */
+    margin-top: 3%;
+
+}
+
+.malabar_footer_info
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 16vw;
+    height: fit-content;
+    /* border:  2px solid #14010c; */
+
+
+
+
+}
+
+.malabar_footer_heading_text_box
+{
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    width: 16vw;
+    height: fit-content;
+    /* border:  2px solid #60ce05; */
+}
+
+.malabar_footer_text_box
+{
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    width: 16vw;
+    height: fit-content;
+    /* border:  2px solid #7810da; */
+}
+.malabar_footer_text_mini
+{
+    color: var(--main_color);
+    font-family:  serif;
+    font-size: 12px;
+
+
+}
+
+.malabar_footer_text_with_icons_box
+{
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_text_icon_img
+{
+    width: 20px;
+}
+
+
+.malabar_social_and_payments_icons_box
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 80px;
+    align-items: center;
+    /* border:  2px solid #7810da; */
+}
+
+.malabar_social_icon_box
+{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    width: 250px;
+
+    /* border:  2px solid #7810da; */
+    justify-content: space-evenly;
+
+}
+
+.malabar_payments_icons_box
+{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    align-items: center;
+    width: 350px;
+
+    /* border:  2px solid #7810da; */
+    justify-content: space-evenly;
+}
+
+.malabr_footer_social_and_payments_imgs
+{
+    width: 45px;
+}
+
+.malabar_rights_reserved_box
+{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background: #f9f2ea;
+
+
+}
